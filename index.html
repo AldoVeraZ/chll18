@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie SPA</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <header id="home-link">
+      <h1 class="maiden">ALDO MOVIES</h1>
+      <nav>
+        <ul>
+          <!-- Enlace de navegación para "Home" -->
+          <li><a href="#home" class="uppercase">Home</a></li>
+          <!-- Enlace de navegación para "Add Movie" -->
+          <li><a href="#add-movie" class="uppercase">Add Movie</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Área de búsqueda -->
+      <section id="search">
+        <label for="search-input" class="blood maiden">Search by Title:</label>
+        <input type="text" id="search-input" />
+      </section>
+      <!-- Filtro por año -->
+      <section id="filter">
+        <label for="year-filter" class="blood">Filter by Year:</label>
+        <select id="year-filter">
+          <!-- Opción por defecto "Sin seleccionar" -->
+          <option value="">Sin seleccionar</option>
+          <!-- Opciones del filtro se agregarán dinámicamente -->
+        </select>
+      </section>
+
+      <section id="movies" class="movies-container">
+        <!-- Películas se mostrarán aquí -->
+      </section>
+
+      <div id="toastMessage" class="toast"></div>
+
+      <div id="pagination" class="pagination">
+        <button id="prevPageBtn" class="page-btn">◀</button>
+        <button id="nextPageBtn" class="page-btn">▶</button>
+      </div>
+    </main>
+    <!-- Formulario para agregar nuevas películas -->
+    <section id="add-movie">
+      <h2 class="lbl-add maiden">Add New Movie</h2>
+      <form id="add-movie-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required />
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        <label for="year">Year:</label>
+        <input
+          type="number"
+          id="year"
+          name="year"
+          min="1900"
+          max="2100"
+          required
+        />
+        <label for="imgUrl">Image URL:</label>
+        <input type="url" id="imgUrl" name="imgUrl" required />
+        <button type="submit">Add Movie</button>
+      </form>
+    </section>
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2024 ALDO'S MOVIES</p>
+    </footer>
+    <!-- Archivo JavaScript -->
+    <script src="./app.js"></script>
+  </body>
+</html>

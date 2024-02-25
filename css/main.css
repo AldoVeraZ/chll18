@@ -1,0 +1,212 @@
+/* Estilos del Proyecto 2 */
+
+body {
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(66, 66, 222);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffffcc;
+  font-family: "maiden";
+  font-size: larger;
+}
+
+main {
+  padding: 20px;
+}
+
+#search {
+  display: grid;
+  grid-template-columns: auto auto; /* Dos columnas de ancho automático */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+#search label {
+  text-align: right; /* Alinea el texto a la derecha */
+  margin-right: 10px; /* Añade un poco de espacio entre la etiqueta y el input */
+}
+
+.maiden {
+  font-family: "maiden";
+}
+
+#search input {
+  min-width: 600px; /* Ancho mínimo para el input */
+}
+
+#filter {
+  display: grid;
+  grid-template-columns: auto auto 520px; /* Dos columnas de ancho automático */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  margin-bottom: 2rem;
+}
+
+#add-movie {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr; /* Una sola columna */
+  justify-items: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  text-align: center; /* Centra el texto dentro del formulario */
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: #dddddd;
+}
+
+#add-movie-form {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Dos columnas: una para etiquetas y otra para inputs */
+  gap: 10px; /* Espacio entre las filas */
+}
+
+.lbl-add {
+  margin-bottom: 10px; /* Espacio entre el título y el formulario */
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(66, 66, 222);
+}
+
+#add-movie-form label {
+  text-align: right; /* Alinea el texto a la derecha */
+}
+
+#add-movie-form input,
+#add-movie-form textarea {
+  width: 100%; /* Ajusta el ancho del input al 100% */
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"],
+textarea {
+  width: calc(60% - 180px); /* Reducir el ancho del input */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 120px; /* Ancho del label */
+  text-align: right;
+  margin-right: 20px; /* Espacio entre el label y el input */
+  font-weight: bolder;
+}
+
+.blood {
+  color: #8a0303;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Estilos para las tarjetas de películas */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribuir las películas uniformemente */
+}
+
+.movie-card {
+  width: calc(
+    20% - 20px
+  ); /* Ajustar el ancho según el diseño de 5 tarjetas por fila */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card-content {
+  padding: 10px;
+}
+
+.pagination .page-btn {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination .page-btn:hover {
+  background-color: #555;
+}
+
+.pagination .active {
+  background-color: #555;
+}
+
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  display: none;
+}
+
+.toast.show {
+  display: block;
+}

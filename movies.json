@@ -1,0 +1,154 @@
+{
+  "movies": [
+    {
+      "img": "https://m.media-amazon.com/images/I/A1exRxgHRRL._AC_UF894,1000_QL80_.jpg",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },
+    {
+      "img": "https://ew.com/thmb/SdpeEcqcZ3mj0-l9oh6MdH-y5-U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/interstellar-poster1-aef2b365e9ed4f0bba04052b9ec7a7b2.jpg",
+      "title": "Interstellar",
+      "year": 2014,
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    },
+    {
+      "img": "https://visualprint-store.com/cdn/shop/products/american_psycho_ver2_xxlg.jpg?v=1665536936&width=1445",
+      "title": "American Psycho",
+      "year": 2000,
+      "description": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies."
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/z/j/9/medium-na-taxi-driver-movie-poster-for-room-and-home-decor-movie-original-imagzfyznevwxahz.jpeg?q=20&crop=false",
+      "title": "Taxi Driver",
+      "year": 1976,
+      "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute."
+    },
+    {
+      "img": "https://image.tmdb.org/t/p/original/vU1X1zIn4dzCU14TsWYjuhGXa35.jpg",
+      "title": "127 Hours",
+      "year": 2010,
+      "description": "A mountain climber becomes trapped under a boulder while canyoneering alone near Moab, Utah and resorts to desperate measures in order to survive."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51Yh0I49CrL._AC_UF894,1000_QL80_.jpg",
+      "title": "The Human Centipede",
+      "year": 2009,
+      "description": "A mad scientist kidnaps and mutilates a trio of tourists in order to reassemble them into a human centipede, created by stitching their mouths to each other's rectums."
+    },
+    {
+      "img": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/1972612/4677301/api20y6mc__06444.1625674048.jpg?c=2",
+      "title": "Cape Fear",
+      "year": 1991,
+      "description": "A convicted rapist, released from prison after serving a fourteen-year sentence, stalks the family of the lawyer who originally defended him."
+    },
+    {
+      "img": "https://i.pinimg.com/564x/cf/c7/b1/cfc7b19d0645ac1e549001e80b59d515.jpg",
+      "title": "Unlawful Entry",
+      "year": 1992,
+      "description": "After a break-in at their house, a couple gets help from one of the cops that answered their call. He helps them install the security system, and begins dropping by on short notice and unofficial patrol, and spends a lot of time discussing the couple's problems with the wife."
+    },
+    {
+      "img": "https://cdn.europosters.eu/image/750/posters/robocop-1987-one-sheet-i16501.jpg",
+      "title": "RoboCop",
+      "year": 1987,
+      "description": "In a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/517wGzAe+3L._AC_UF894,1000_QL80_.jpg",
+      "title": "Lakeview Terrace",
+      "year": 2008,
+      "description": "A LAPD officer will stop at nothing to force out the interracial couple who just moved in next door."
+    },
+    {
+      "img": "https://i.ebayimg.com/images/g/BcMAAOSw-0RbH-R0/s-l1600.jpg",
+      "title": "Raging Bull",
+      "year": 1980,
+      "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61QKB2DocFL.jpg",
+      "title": "Goodfellas",
+      "year": 1990,
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51IDPaYbt9L._AC_UF894,1000_QL80_.jpg",
+      "title": "Point Break",
+      "year": 1991,
+      "description": "An F.B.I. Agent goes undercover to catch a gang of surfers who may be bank robbers."
+    },
+    {
+      "img": "https://i.pinimg.com/originals/04/ff/90/04ff90aea435eae77721f649fb389a36.jpg",
+      "title": "Aliens",
+      "year": 1986,
+      "description": "Ellen Ripley is rescued by a deep salvage team after being in hypersleep for 57 years. The moon that the Nostromo visited has been colonized, but contact is lost. This time, colonial marines have impressive firepower, but will that be enough?"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/517UEEfdSQL._AC_UF894,1000_QL80_.jpg",
+      "title": "Hannibal Rising",
+      "year": 2007,
+      "description": "After the death of his parents during World War II, young Hannibal Lecter moves in with his beautiful aunt and begins plotting revenge on the barbarians responsible for his sister's death."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/510AK5iN2rL._AC_UF894,1000_QL80_.jpg",
+      "title": "In the Line of Fire",
+      "year": 1993,
+      "description": "Secret Service agent Frank Horrigan couldn't save Kennedy, but he's determined not to let a clever assassin take out this president."
+    },
+    {
+      "img": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2869160/5913001/MOVGJ2559__26886.1679566169.jpg?c=2",
+      "title": "Ripley's Game",
+      "year": 2002,
+      "description": "A dying family man in need of money is persuaded to assassinate a European crime lord."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/5131LSNHnbL._AC_UF894,1000_QL80_.jpg",
+      "title": "No Retreat, No Surrender",
+      "year": 1986,
+      "description": "Jason Stillwell, a Bruce Lee fan, is beaten numerous times and trains from the ghost of Lee. Jason then must use his newly acquired skills to save Seattle from a crime syndicate, whose top martial artist is the deadly Ivan."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51YSphV7JML._AC_UF894,1000_QL80_.jpg",
+      "title": "Higher Learning",
+      "year": 1995,
+      "description": "People from all different walks of life, encounter racial tension, rape, responsibility, and the meaning of an education on a university campus."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41dvegokzbL._AC_UF894,1000_QL80_.jpg",
+      "title": "The Virgin Suicides",
+      "year": 1999,
+      "description": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents in suburban Detroit in the mid-1970s."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51aOxWwYd8L._AC_UF894,1000_QL80_.jpg",
+      "title": "The Craft",
+      "year": 1996,
+      "description": "A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft, and they all soon conjure up various spells and curses against those who anger them."
+    },
+    {
+      "img": "https://i.ebayimg.com/images/g/OdoAAOSw2S1fUy6o/s-l1200.webpg",
+      "title": "Poltergeist",
+      "year": 1982,
+      "description": "A family's home is haunted by a host of demonic ghosts."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/M/MV5BNjQyNmZiNWEtNmE2YS00NzllLWJlNDMtNDVjNTNkMWMyM2U5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+      "title": "Poltergeist II: The Other Side",
+      "year": 1986,
+      "description": "The Freeling family have a new house, but their troubles with supernatural forces don't seem to be over."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/517uEeoedAL._AC_UF894,1000_QL80_.jpg",
+      "title": "Poltergeist III",
+      "year": 1988,
+      "description": "Carol Anne is staying with her aunt in a high-rise building, where the supernatural forces haunting her make their return."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61gM+1EpnoL.jpg",
+      "title": "Dragon: The Bruce Lee Story",
+      "year": 1993,
+      "description": "A fictionalized account of the life of the martial arts superstar."
+    }
+  ]
+}
